@@ -10,8 +10,7 @@ A fully customisable **Home Assistant** automation blueprint that sends high-pri
 
 - 🔔 Smart notifications for **Fajr, Dhuhr, Asr, Maghrib, and Isha**
 - 🌐 Bilingual messages (Arabic and English) – **fully editable**
-- 🎨 Custom icons and colours per prayer
-- ⚙️ Test mode included to verify setup
+- 🎨 Custom icons per prayer
 - 📱 Compatible with both Android and iOS
 - ✅ Interactive action buttons (Android only):
   - *Mark as Prayed*
@@ -32,20 +31,8 @@ Make sure the following are in place before using this blueprint:
 
 ## 🛠️ Setup Instructions
 
-1. Download or paste the YAML into your `blueprints/automation` folder
-2. In Home Assistant, go to **Automations → Blueprints**, then **Import Blueprint**
-3. Select **Azan Notifications v1.0**
-4. Configure:
-   - Your mobile device
-   - Sensors for each prayer
-   - Optional custom messages
-   - Enable/disable prayers as needed
+Click the button below to import the blueprint directly into your Home Assistant instance:
 
----
-
-## 🧪 Test Mode
-
-You can test the system by assigning a custom test `timestamp` sensor and enabling **Test Notification**. This is useful to validate the configuration without waiting for actual prayer times.
 
 ---
 
