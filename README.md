@@ -66,7 +66,7 @@ You can personalise the message shown in each prayer notification.
 
 ## 📷 Screenshots
 
-> _(Optional: Add screenshots of notifications on mobile devices if desired)_
+![Preview](https://github.com/shadynafie/AzanNotification/blob/main/assets/mobile-notofication-preview.png)
 
 ---
 
