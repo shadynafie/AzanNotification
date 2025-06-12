@@ -2,7 +2,7 @@
 
 **By [Shady Nafie — Smart Tech Arabic](https://smarttecharabic.com)**
 
-A fully customisable **Home Assistant** automation blueprint that sends high-priority notifications for all five daily Islamic prayers. Designed for modern Muslim smart homes, this solution includes bilingual messages, platform-aware features, and an optional test mode.
+A customisable **Home Assistant** automation blueprint that delivers timely notifications for the five daily Islamic prayers. It supports bilingual messages and works across both Android and iOS devices.
 
 ---
 
