@@ -2,19 +2,15 @@
 
 **By [Shady Nafie — Smart Tech Arabic](https://smarttecharabic.com)**
 
-A customisable **Home Assistant** automation blueprint that delivers timely notifications for the five daily Islamic prayers. It supports bilingual messages and works across both Android and iOS devices.
+A customisable **Home Assistant** automation blueprint that delivers timely notifications for the five daily Islamic prayers. It supports custom messages and works across both Android and iOS devices.
 
 ---
 
 ## ✨ Features
 
-- 🔔 Smart notifications for **Fajr, Dhuhr, Asr, Maghrib, and Isha**
-- 🌐 Bilingual messages (Arabic and English) – **fully editable**
+- 🔔 Timley notifications for **Fajr, Dhuhr, Asr, Maghrib, and Isha**
+- 🌐 Custom messages – **fully editable**
 - 🎨 Custom icons per prayer
-- 📱 Compatible with both Android and iOS
-- ✅ Interactive action buttons (Android only):
-  - *Mark as Prayed*
-  - *Snooze for 5 minutes*
 
 ---
 
@@ -49,7 +45,7 @@ Click the button below to import the blueprint directly into your Home Assistant
   Select your mobile device from the dropdown.
 
 - **Prayer Sensors**  
-  Assign each prayer to its corresponding sensor (from the Islamic Prayer Times integration):
+  Assign each prayer to its corresponding sensor (from the Islamic Prayer Times integration).
 
 ### Step 3: Prayer Preferences
 
@@ -66,24 +62,11 @@ Enable or disable notifications for individual prayers as needed:
 
 You can personalise the message shown in each prayer notification.
 
-- **Default:**  
-`Time for Fajr prayer – حان الآن موعد صلاة الفجر`
-
-- **Custom Example:**  
-`🌅 Dawn prayer time has arrived - وقت صلاة الفجر`
-
 ---
 
 ## 📷 Screenshots
 
 > _(Optional: Add screenshots of notifications on mobile devices if desired)_
-
----
-
-## 📌 Notes
-
-- Only Android supports interactive actions like *Mark as Prayed* or *Snooze*
-- iOS users will still receive styled, persistent prayer alerts
 
 ---
 
