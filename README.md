@@ -39,34 +39,38 @@ Click the button below to import the blueprint directly into your Home Assistant
 
 ### Step 1: Create New Automation
 
-Navigate to Configuration → Blueprints
-Find "Azan Notifications v1.0"
-Click Create Automation
+1. Navigate to **Settings → Automations & Scenes → Blueprints**
+2. Locate **"Azan Notifications v1.0"**
+3. Click **Create Automation**
 
 ### Step 2: Basic Setup
 
-Target Device: Select your mobile device from the dropdown
-Prayer Sensors: Map each prayer to its corresponding sensor:
+- **Target Device**  
+  Select your mobile device from the dropdown.
 
-Fajr → sensor.fajr_prayer_time
-Dhuhr → sensor.dhuhr_prayer_time
-Asr → sensor.asr_prayer_time
-Maghrib → sensor.maghrib_prayer_time
-Isha → sensor.isha_prayer_time
+- **Prayer Sensors**  
+  Assign each prayer to its corresponding sensor (from the Islamic Prayer Times integration):
 
 ### Step 3: Prayer Preferences
-Enable or disable individual prayers based on your needs:
 
-✅ Fajr Prayer (Dawn)
-✅ Dhuhr Prayer (Midday)
-✅ Asr Prayer (Afternoon)
-✅ Maghrib Prayer (Sunset)
-✅ Isha Prayer (Night)
+Enable or disable notifications for individual prayers as needed:
 
-### Step 4: Message Customization (Optional)
-Personalize notification messages for each prayer:
-Default: "Time for Fajr prayer – حان الآن موعد صلاة الفجر"
-Custom: "🌅 Dawn prayer time has arrived - وقت صلاة الفجر"
+- ✅ **Fajr Prayer** (Dawn)  
+- ✅ **Dhuhr Prayer** (Midday)  
+- ✅ **Asr Prayer** (Afternoon)  
+- ✅ **Maghrib Prayer** (Sunset)  
+- ✅ **Isha Prayer** (Night)
+
+
+### Step 4: Message Customisation *(Optional)*
+
+You can personalise the message shown in each prayer notification.
+
+- **Default:**  
+`Time for Fajr prayer – حان الآن موعد صلاة الفجر`
+
+- **Custom Example:**  
+`🌅 Dawn prayer time has arrived - وقت صلاة الفجر`
 
 ---
 
