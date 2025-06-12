@@ -23,9 +23,7 @@ A fully customisable **Home Assistant** automation blueprint that sends high-pri
 Make sure the following are in place before using this blueprint:
 
 1. **Islamic Prayer Times** integration is installed and correctly configured
-2. Each prayer time is available as a `sensor` with `device_class: timestamp`
-3. You have the **Home Assistant Mobile App** installed and notifications enabled
-4. Your mobile device is selected under `notify_device`
+2. You have the **Home Assistant Mobile App** installed and notifications enabled
 
 ---
 
